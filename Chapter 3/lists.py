@@ -69,3 +69,41 @@ print("\nnow the list is:")
 print(new_list)
 
 # REMOVING AN ITEM USING THE POP() METHOD
+# The pop() method removes the last value on a list and allows you to store it
+# for later use. By default it will always take the last item on the list.
+# You can define the position of the value you want to pop by placing its position
+# in the brackets. 
+# Example below:
+pop_list_example = [1,2,3,4,5,6]
+print(f"My list contains the numbers -",pop_list_example)
+print("Now I will remove 6.")
+the_number_6 = pop_list_example.pop()
+print(f"My list contains the numbers -",pop_list_example)
+print(f"The number 6 is now stored here -",the_number_6)
+print("Now I will remove the number 3.")
+the_number_3 = pop_list_example.pop(2)
+print(f"My list now contains the numbers -",pop_list_example)
+print(f"The number 3 is now stored here -",the_number_3)
+
+# REMOVING AN ITEM BY VALUE
+# You can remove an item from a list if you know the value by using remove().
+# This is handy if you can recall the item name but not it's position on the
+# list.
+# Example below:
+list_items = ['bottle','cup','glass','mug']
+print(f"My items are listed as -",list_items)
+print("Now I will remove mug.")
+list_items.remove('mug')
+print(f"My items are listed as -",list_items)
+
+# ASSIGNING A VALUE FROM A REMOVED ITEM BY VALUE
+# That is a stupid title. Anyway. You can use the remove() method to assign
+# the removed value to a variable.
+# Example Below:
+list_items.append('chalice')
+print(f"My list of items is now - ",list_items)
+print("I will now remove chalice.")
+things_I_wouldnt_drink_out_of = 'chalice'
+list_items.remove(things_I_wouldnt_drink_out_of)
+print(f"My list of items is now - ",list_items)
+print(f"Chalice is now stored here -",things_I_wouldnt_drink_out_of)
