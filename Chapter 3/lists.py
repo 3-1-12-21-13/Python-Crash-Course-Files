@@ -34,3 +34,21 @@ print(f"This is the last item on the list - ", lists_example[-1])
 # Example Below:
 lists_statement = f"The third item on the list is - {lists_example[2].title()}."
 print(lists_statement)
+
+# ADDING ELEMENTS TO A LIST
+# The simplest way to add items to the end of a list is to use the append method.
+# This will add an item to the end of a list.
+# Example below:
+lists_example.append('list item 5')
+print(f"The new last item on the list is - ", lists_example[-1].title())
+
+# You can use the append method to make it easy to build an empty list from the 
+# ground up. 
+# Example below:
+new_list = []
+new_list.append('new list item 1')
+new_list.append('new list item 2')
+new_list.append('new list item 3')
+new_list_statement = f"The items on my new list are: \n{new_list[0].title()}\
+\n{new_list[1].title()}\n{new_list[-1].title()}"
+print(new_list_statement)
