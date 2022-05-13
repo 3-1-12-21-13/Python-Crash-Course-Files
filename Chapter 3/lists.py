@@ -52,3 +52,20 @@ new_list.append('new list item 3')
 new_list_statement = f"The items on my new list are: \n{new_list[0].title()}\
 \n{new_list[1].title()}\n{new_list[-1].title()}"
 print(new_list_statement)
+
+# INSERTING ELEMENT INTO LIST
+# You can add a new element to any position in a list using the insert() method
+# Example below:
+new_list.insert(3,'new list item 4')
+print(f"The new item on the list is -",new_list[3].title())
+
+# REMOVING ITEMS FROM LIST
+# You can delete an item from a list using the del statement.
+# Example below:
+print(new_list_statement)
+print("Now I remove item 1 from the list")
+del new_list[0]
+print("\nnow the list is:")
+print(new_list)
+
+# REMOVING AN ITEM USING THE POP() METHOD
