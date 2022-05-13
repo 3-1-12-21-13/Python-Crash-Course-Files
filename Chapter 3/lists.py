@@ -107,3 +107,41 @@ things_I_wouldnt_drink_out_of = 'chalice'
 list_items.remove(things_I_wouldnt_drink_out_of)
 print(f"My list of items is now - ",list_items)
 print(f"Chalice is now stored here -",things_I_wouldnt_drink_out_of)
+
+# SORTING A LIST PERMANENTLY WITH THE SORT() METHOD
+# You can use the sort() method on a list to change the values order
+# into an alphabetical one.
+# Example Below:
+sort_list = ['d','b','a','c','e']
+print("\nUnsorted list - ",sort_list)
+sort_list.sort()
+print("\nSorted list - ",sort_list)
+# You can also use the reverse=true with sort() to reverse order the list.
+# Example Below:
+sort_list.sort(reverse=True)
+print("\nReverse Sorted List - ",sort_list)
+
+# SORTING A LIST TEMPORARILY WITH THE SORTED() METHOD
+# You can use the sorted() method on a list to change the values order
+# temporarily without affected the order of the list permanently. 
+# Example Below:
+print("\nHere is the original list - ", sort_list)
+print("\nHere is the sorted list - ", sorted(sort_list))
+print("\nHere is the original list again - ", sort_list)
+
+# PRINTING A LIST IN REVERSE ORDER
+# You can print the order of a list in reverse using the reverse()
+# method. This will NOT alphabetically reverse the values. Just
+# reverse their order in the list.
+# Example Below:
+sort_list = ['up','down','left','right']
+print("\nHere is the original list - ", sort_list)
+sort_list.reverse()
+print("\nHere is the original list reversed - ", sort_list)
+
+# FINDING THE LENGTH OF A LIST
+# You can find the length of a list by using the len() function.
+# Example Below:
+len_list = [12341,134673,134212143,55556312489]
+print("\nHere is a list of numbers - ", len_list)
+print("Here are how many numbers are in the list - ", len(len_list))

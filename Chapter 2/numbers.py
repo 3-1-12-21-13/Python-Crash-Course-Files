@@ -14,7 +14,7 @@ print(y)
 print(z)
 
 # Constants
-# A constant is a variable whose value stays the sme throughout the life of a program. Python does not have
+# A constant is a variable whose value stays the same throughout the life of a program. Python does not have
 # built in constant types, but uses all capital letters to indicate a variable should be treated as a constant
 # and never be changed.
 # example below:
