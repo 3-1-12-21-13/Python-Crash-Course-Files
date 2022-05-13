@@ -15,9 +15,9 @@ print(message_for_title.lower())
 # before the opening quotation mark. Put braces around the name or names of 
 # any variable you want to use inside the string. Python will replace each 
 # variable with its value when the string is displayed. 
-first_name = "Calum"
-middle_name = "James"
-last_name = "Muir"
+first_name = "Erlich"
+middle_name = "Timothy"
+last_name = "Bachman"
 full_name= f"{first_name} {middle_name} {last_name}"
 print(full_name)
 # With f-strings, you can use them to compose complete messages using the 

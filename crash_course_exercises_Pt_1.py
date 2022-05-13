@@ -11,12 +11,12 @@ print(message_2_2)
 
 #2-3. Personal Message: Use a variable to represent a person’s name, and print a message to that person. 
 # Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
-name_var = "calum"
+name_var = "Erlich"
 print(f"Hello {name_var.title()}, \nWould you like to learn some Python today?")
 
 #2-4. Name Cases: Use a variable to represent a person’s name, and then print that person’s name 
 # in lowercase, uppercase, and title case.
-name_var2 = "calum muir"
+name_var2 = "Erlich Bachman"
 print(f"This is the name in lowercase - '{name_var2.lower()}'\nThis is the name in uppercase - '{name_var2.upper()}'\
     \nThis is the name in titlecase - '{name_var2.title()}'")
 
@@ -37,7 +37,7 @@ print(quote_message)
 # Make sure you use each character combination, "\t" and "\n", at least once.
 # Print the name once, so the whitespace around the name is displayed. Then print the name using each of the three
 # stripping functions, lstrip(), rstrip(), and strip().
-name_var = "   Calum Muir     "
+name_var = "   Erlich Bachman     "
 print(f'\nHere is the name unstripped - "{name_var}".\nHere is the name with lstrip - "{name_var.lstrip()}".\
     \nHere is the name with rstrip - "{name_var.rstrip()}".\nFinally, here is the name with strip - \
 "{name_var.strip()}". \n\nThere. You happy now? Good.\n\n\t\tNow fuck off.\n\n\n')
