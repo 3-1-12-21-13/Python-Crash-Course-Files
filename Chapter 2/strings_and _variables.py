@@ -1,5 +1,5 @@
 # EXAMPLE OF METHODS WITHIN VARIABLES
-# Below is the method title() being called on the variable 'message_for_title'. 
+# Below is the method title() being called on the variable 'message_for_title'.
 message_for_title = "This is the message for the title."
 print(message_for_title.title())
 # Every method is followed by a set of parenthesis (). This is because methods
