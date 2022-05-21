@@ -7,3 +7,6 @@ for value in values:
         print(f"{value} - This number is not 5.")
     else:
         print(f"{value} - This number is 5.")
+
+# In the above block of code, Python compares the numbers 1 to 5 with the 
+# condition that it is NOT 5 until it is.
